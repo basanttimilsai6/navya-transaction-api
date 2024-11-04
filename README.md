@@ -10,6 +10,7 @@ These instructions will help you set up and run the project on a local machine f
 
 - **Python 3.x**
 - **Docker** (optional but recommended)
+- **Postman** (Recommended)
 
 ### Installation
 
