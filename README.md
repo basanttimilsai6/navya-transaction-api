@@ -24,10 +24,8 @@ Clone this repository to your local machine:
     docker compose build --no-cache
     docker compose up
 
-<!-- For container access: -->
-    docker exec -it container_name bash
-
-<!-- For Django: -->
+For Django container access:
+    docker exec -it navya-web bash
     python manage.py makemigrations
     python manage.py migrate
     python manage.py createsuperuser
