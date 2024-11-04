@@ -25,6 +25,7 @@ Clone this repository to your local machine:
     docker compose up
 
 For Django container access:
+
     docker exec -it navya-web bash
     python manage.py makemigrations
     python manage.py migrate
