@@ -67,31 +67,9 @@ The API will be available at http://localhost:8080/api/schema/swagger/
 -> For endpoint 7 and 8:
    Create a PDF with a template header of any logo you like. Put the logo at the top as static for all pdfs and create a dynamic table to be populated below the logo as per the data.
 
-   - Endpoint 7 should be able to access/download the PDF which contains the data of all transactions in a horizontal table with column names and data. Example format:
-
-   ===========================================================================================================
-   | Transaction ID |      Name      |     Phone     |       Email       |    Amount    |  Transaction Date  |
-   ===========================================================================================================
-   |   TXNID0057    |    John Doe    |   9865012345  | johndoe@gmail.com |   10000.00   |     2023-12-30     |
-   |---------------------------------------------------------------------------------------------------------|
-   |   TXNID0055    |    Troy Lee    |   9875002087  | troylee@gmail.com |   15000.00   |     2023-12-29     |
-   ===========================================================================================================
+   - Endpoint 7 should be able to access/download the PDF which contains the data of all transactions in a horizontal table with column names and data.
    
-   - Endpoint 8 should be able to access/download the PDF which contains the data of a transaction with specified transaction id in a vertical table with column names and data. Example format:
-
-   ===========================================
-   |   Transaction ID   |      TXNID0057     |
-   |--------------------|--------------------|
-   |        Name        |      John Doe      |
-   |--------------------|--------------------|
-   |        Phone       |      9865012345    |
-   |--------------------|--------------------|
-   |        Email       | johndoe@gmail.com  |
-   |--------------------|--------------------|
-   |       Amount       |      10000.00      |
-   |--------------------|--------------------|
-   |  Transaction Date  |     2023-12-30     |
-   ===========================================
+   - Endpoint 8 should be able to access/download the PDF which contains the data of a transaction with specified transaction id in a vertical table with column names and data.
 
 
 The access to above REST APIs should be handled through JWT Authentication and Authorization
