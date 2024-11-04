@@ -18,7 +18,7 @@ These instructions will help you set up and run the project on a local machine f
 Clone this repository to your local machine:
 
 <!-- Terminal: -->
-    git clone https://github.com/basanttimilsai6/transaction-api.git
+    git clone [https://github.com/basanttimilsai6/transaction-api.git](https://github.com/basanttimilsai6/navya-transaction-api.git)
     cd navya-transaction-api
     cd navya
     docker compose build --no-cache
