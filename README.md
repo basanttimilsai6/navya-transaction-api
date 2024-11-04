@@ -19,7 +19,7 @@ Clone this repository to your local machine:
 
 <!-- Terminal: -->
     git clone https://github.com/basanttimilsai6/transaction-api.git
-    cd transaction-api
+    cd navya-transaction-api
     cd navya
     docker compose build --no-cache
     docker compose up
