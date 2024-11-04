@@ -89,11 +89,11 @@ WSGI_APPLICATION = 'navya.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'transaction_db',         # Same as POSTGRES_DB in docker-compose
-        'USER': 'transaction_user',       # Same as POSTGRES_USER in docker-compose
-        'PASSWORD': 'transaction_password',  # Same as POSTGRES_PASSWORD in docker-compose
-        'HOST': 'db',                     # Service name of the PostgreSQL container in docker-compose
-        'PORT': '5432',                   # Default PostgreSQL port
+        'NAME': 'transaction_db',
+        'USER': 'transaction_user',
+        'PASSWORD': 'transaction_password',
+        'HOST': 'db',
+        'PORT': '5432',
     }
 }
 
